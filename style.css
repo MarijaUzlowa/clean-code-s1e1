@@ -5,40 +5,40 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.aaa {
+.info-block {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.aaa img {
+.info-block img {
     width: 100%;
 }
 
-.aaa .more_inf {
+.info-block__more_info {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-    .aaa {
+    .info-block {
         text-align: center;
     }
 }
 
-.centered-main-page-element {
+.tasks-block {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
 
-.task {
+.tasks-block__task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
 
-.task-row-wrapper {
+.tasks-block__wrapper {
     display: flex;
 }
 
@@ -138,18 +138,18 @@ li > input[type="text"] {
     width: 226px;
 }
 
-button.delete img {
+.tasks-block__delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.tasks-block__delete img:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
     text-decoration: line-through;
     color: #888;
 }
@@ -159,11 +159,11 @@ ul li input[type=text] {
     display: none;
 }
 
-ul li.editMode input[type=text] {
+.edit-mode input[type=text] {
     display: inline-block;
     width: 224px;
 }
 
-ul li.editMode label {
+.edit-mode label {
     display: none;
 }
