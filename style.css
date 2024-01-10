@@ -12,7 +12,7 @@ body {
   text-align: right;
 }
 
-.info-block img {
+.info-block__img {
   width: 100%;
 }
 
@@ -139,13 +139,13 @@ h3 {
   width: 226px;
 }
 
-.tasks-block__delete img {
+.tasks-block__delete .tasks-block__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.tasks-block__delete img:hover {
+.tasks-block__delete .tasks-block__img:hover {
   transform: rotateZ(0);
 }
 
